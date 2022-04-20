@@ -1,6 +1,9 @@
 # This script sets up QoS Mangle (tagging) rules.
 # See also QoS-Queue-Tree.txt
+#
 # Before using these scripts, you need to disable the FastTrack rule in ip > firewall > filters and reboot
+#
+# For more info, see https://forum.mikrotik.com/viewtopic.php?p=384066
 
 /ip firewall mangle
 

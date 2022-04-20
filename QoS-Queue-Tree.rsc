@@ -1,8 +1,14 @@
 # This script sets up Queue Trees for QoS Rules
 # See also QoS-Firewall-Mangle.txt
+#
+# For more info, see https://forum.mikrotik.com/viewtopic.php?p=384066
+#
 # Before running:
+# - Delete the FastTrack rule in ip > firewall > filters and reboot
 # - Check that max-limit is 90% of actual available bandwidth
 # - Check the interface names for UP and DOWN rules
+#
+# For more info, see https://forum.mikrotik.com/viewtopic.php?p=384066
 
 /queue tree
 
